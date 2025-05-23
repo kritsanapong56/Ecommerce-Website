@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="shop.html">ร้านค้า</a></li>
+                <li><a href="blog.html">บล็อก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <h3>รถเข็น</h3>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>รายการสิ้นค้า</td>
+                    <td>ราคาต่อชิ้น</td>
+                    <td>จำนวน</td>
+                    <td>ราคารวม</td>
+                    <td>ลบ</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>฿1,990</td>
+                    <td><input type="number" value="1"></td>
+                    <td>฿1,990</td>
+                    <td><i class="far fa-times-circle"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>฿1,990</td>
+                    <td><input type="number" value="1"></td>
+                    <td>฿1,990</td>
+                    <td><i class="far fa-times-circle"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>฿1,990</td>
+                    <td><input type="number" value="1"></td>
+                    <td>฿1,990</td>
+                    <td><i class="far fa-times-circle"></i></td>
+                </tr>
+                <tr>
+                    <td><img src="img/products/f7.jpg" alt=""></td>
+                    <td>Astronaut Pant</td>
+                    <td>฿1,590</td>
+                    <td><input type="number" value="1"></td>
+                    <td>฿1,590</td>
+                    <td><i class="far fa-times-circle"></i></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>ใช้ส่วนลดราคา</h3>
+            <div>
+                <input type="text" placeholder="ใช้ส่วนลดราคา">
+                <button class="normal">ยืนยัน</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>สรุปคำสั่งซื้อ</h3>
+            <table>
+                <tr>
+                    <td>ยอดรวมทั้งหมด </td>
+                    <td> ฿ 7,587</td>
+                </tr>
+                <tr>
+                    <td>ค่าจัดส่ง</td>
+                    <td>ส่งฟรี</td>
+                </tr>
+                <tr>
+                    <td><strong>ราคาทั้งหมด</strong></td>
+                    <td> ฿ 7,587</td>
+                </tr>
+            </table>
+            <button class="normal">ดำเนินการชำระเงิน</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>ติดต่อ</h4>
+            <p><strong>ที่อยู่: </strong> เลขที่ 789/25 ถนนพหลโยธิน เขตสายไหม กรุงเทพฯ</p>
+            <p><strong>โทร: </strong> 081-2223333</p>
+            <p><strong>เวลาเปิด</strong> 9:00 - 19:00 , จันทร์-เสาร์</p>
+            <div class="follow">
+                <h4>ติดตามเรา</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://line.me/R/ti/p/" target="_blank">
+                        <i class="fab fa-line"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>เกี่ยวกับเรา</h4>
+            <a href="#">เกี่ยวกับเรา</a>
+            <a href="#">ข้อมูลการจัดส่ง</a>
+            <a href="#">นโยบายความเป็นส่วนตัว</a>
+            <a href="#">ข้อกำหนดและเงื่อนไข</a>
+            <a href="#">ติดต่อเรา</a>
+        </div>
+        <div class="col">
+            <h4>บัญชีของฉัน</h4>
+            <a href="#">ลงชื่อเข้าใช้</a>
+            <a href="#">ดูรถเข็น</a>
+            <a href="#">รายการโปรด</a>
+            <a href="#">ติดตามคำสั่งซื้อ</a>
+            <a href="#">ช่วยเหลือ</a>
+        </div>
+        <div class="coi install">
+            <h4>ติดตั้งแอปพลิเคชัน</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <a href="https://www.apple.com/th/app-store/" target="_blank">
+                    <img src="img/pay/app.jpg" alt="Download on the App Store">
+                </a>
+                <a href="https://play.google.com/store/apps/" target="_blank">
+                    <img src="img/pay/play.jpg" alt="Get it on Google Play">
+                </a>
+            </div>
+
+            <p>การชำระเงิน</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
